@@ -1,4 +1,4 @@
-const {addtoCard,changeQuantity} = require("./cartModule");
+const {addtoCard,changeQuantity,name} = require("./cartModule");
 
 console.log("welcome to js");
 console.log(20+20);
@@ -7,5 +7,6 @@ l.forEach((value,index)=>{
     console.log(value,index)
 })
 console.log(addtoCard()),
-console.log(changeQuantity())
+console.log(changeQuantity()),
+console.log(name)
 console.log("adnanahmed")

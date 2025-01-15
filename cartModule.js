@@ -8,5 +8,5 @@ let addtoCard=()=>{
 let changeQuantity=()=>{
     return "change quantity"
 }
-
+let name ="ws"
 module.exports={addtoCard,changeQuantity}
